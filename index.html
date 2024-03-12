@@ -6,6 +6,8 @@
     <style>
         body {
             background-color: black;
+            color: white;
+            font-family: sans-serif;
         }
 
         .icon {
@@ -25,6 +27,17 @@
         </defs>
     </svg>
 
+    <h2>xlink:href</h2>
+    <svg class="icon icon-facebook">
+        <use xlink:href="#svg_facebook"></use>
+    </svg>
+    
+    <h2>:xlink:href</h2>
+    <svg class="icon icon-facebook">
+        <use :xlink:href="#svg_facebook"></use>
+    </svg>
+
+    <h2>href xlink:href</h2>
     <svg class="icon icon-facebook">
         <use href="#svg_facebook" xlink:href="#svg_facebook"></use>
     </svg>
